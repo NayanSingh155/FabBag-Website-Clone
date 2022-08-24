@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+
+.title {
+    font-size: 36px;
+    line-height: 36px;
+    color: #222;
+    display: inline-block;
+    margin-bottom: 30px;
+    letter-spacing: -.5px;
+    margin-left: 490px;
+    align-items: center;
+    border-bottom: 2px double #e5b95f;
+    padding: 21px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+#may{
+    display: flex;
+    gap: 5%;
+
+}
