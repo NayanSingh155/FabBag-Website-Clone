@@ -1,7 +1,7 @@
 
 
-    function navbar(){
-        return `      <div id="search_pop_up">
+function navbar() {
+  return `      <div id="search_pop_up">
         <div class="cancle">x</div>
         <p><b>WHAT ARE YOU LOOKING FOR?</b></p>
         <input type="text" id="search_input" placeholder="search product" />
@@ -43,8 +43,8 @@
           <li>Create An Account</li>
         </ul>
       </div>`
-    }
- 
+}
 
-    export default navbar;
+
+export default navbar;
 
