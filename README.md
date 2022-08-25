@@ -1,7 +1,7 @@
 # verdant-straw-7365
 www.fabbag.com
-Nayan Singh
+Nayan Singh:Landing page/homepage half
 Siddharth: subscription landing page
 Prashant : signup signIn
 Abhishek:Footer
-Shahid Alam
+Shahid Alam :checkout page
