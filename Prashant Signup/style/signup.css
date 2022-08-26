@@ -42,6 +42,7 @@ body {
   label{
   color: #141212;
   font-weight:bolder;
+  font-size: large;
   }
   .login>form>input {
     border-color: #8f8f8f;
@@ -63,6 +64,7 @@ body {
     padding: 0 16px;
     width: 90%;
     height: 50px;
+    height: 40px;
   }
 
   .login>form>input[type="submit"] {
@@ -74,6 +76,8 @@ body {
     color: #2c322f;
     cursor: pointer;
     font-size: large;
+    font-weight:bolder;
+    
     
   }
   .login>form>input[type="submit"]:hover {
@@ -90,6 +94,9 @@ height: 40px;
 border: none;
 border-radius: 5px;
 cursor: pointer;
+font-weight:bolder;
+font-size: large;
+padding-left: 10px;
   }
   #facebook{
     background-color: #3b5998;
@@ -107,11 +114,15 @@ cursor: pointer;
   #regt_btn{
     background: #e5b95f;
     border: 0;
-    width: 100%;
+    width: 92%;
     height: 40px;
     border-radius: 3px;
     color: #2c322f;
     cursor: pointer;
     text-align: center;
     font-size: large;
+  }
+  #regt_btn:hover{
+    background-color: #050404;
+    color: white;
   }
