@@ -12,9 +12,9 @@ let navbar = () =>{
  <a href="#">SUBSCRIBE NOW</a>
  </div>
  <div class="search">
- <a href="index.html">
+
   <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO-Printing1_6350cdb4-8c03-49a8-bd2e-c8df50c83b37_2048x.png?v=1660282958" alt="">
-  </a>
+  
   </div>
  <div class="icons">
   <a href="#" class="	fa fa-search"></a>
