@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: white;
+    font: 87.5%/1.5em 'Poppins', sans-serif;
+    margin: 0;
+  
+
+  }
+  .login {
+    margin: 50px auto;
+    width: 400px;
+    line-height: 40px;
+  
+  }
+  .login>form {
+    margin: auto;
+    padding: 20px 25px 20px 25px;
+    width: 100%;
+    border-radius: 5px;
+    background: white;
+    border-top: 3px;
+    border-bottom: 3px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+  }
+
+  .login>form>span {
+    background-color: white;
+    border-radius: 3px 0px 0px 3px;
+    border-right: 3px;
+    display: block;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+  }
+  label{
+  color: #141212;
+  font-weight:bolder;
+  font-size: large;
+  }
+  .login>form>input {
+    border-color: #8f8f8f;
+    background-color: white;
+    border-radius: 0px 3px 3px 0px;
+    margin-bottom: 1em;
+    padding: 0 16px;
+    width: 90%;
+    height: 40px;
+    color:#050404;
+  }
+  .login>form>input:hover{
+   border-color: #e5b95f;
+  }
+  .login>form>input[type="password"] {
+    background-color: white;
+    border-radius: 0px 3px 3px 0px;
+    margin-bottom: 1em;
+    padding: 0 16px;
+    width: 90%;
+    height: 50px;
+    height: 40px;
+  }
+
+  .login>form>input[type="submit"] {
+    background: #e5b95f;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    color: #2c322f;
+    cursor: pointer;
+    font-size: large;
+    font-weight:bolder;
+    
+    
+  }
+  .login>form>input[type="submit"]:hover {
+    background-color: #131715;
+    color: white;
+  }
+
+button{
+display: grid;
+margin-top: 10px;
+width: 100%;
+text-align: left;
+height: 40px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-weight:bolder;
+font-size: large;
+  }
+  #facebook{
+    background-color: #3b5998;
+    color: white;
+    align-items: center;
+  }
+  #google{
+    background-color: #dd4b39;
+    color: white;
+    align-items: center;
+  }
+  #rememberMe{
+   display: inline-block;
+  }
+  #regt_btn{
+    background: #e5b95f;
+    border: 0;
+    width: 92%;
+    height: 40px;
+    border-radius: 3px;
+    color: #2c322f;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+  }
+  #regt_btn:hover{
+    background-color: #050404;
+    color: white;
+  }

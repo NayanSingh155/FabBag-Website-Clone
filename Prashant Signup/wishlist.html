@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <style>
+ #wishlist{
+  display: flex;
+  justify-content:space-evenly;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 40px;
+}
+</style>
+</head>
+<body>
+
+<div id="nav"></div>
+
+    <div id="wishlist">
+        
+        <div>
+    <h1>Oops!</h1>
+    <h2>We can't seem to find the page you're looking for.</h2>
+    <p>Error code: 404</p>
+    <p>Here are some helpful links instead:</p>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Subscribe Now</li>
+        </ul>
+    </div>
+</div>
+<div>
+    <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/404-Airbnb_final-d652ff855b1335dd3eedc3baa8dc8b69_large.gif?v=1548941346" alt="">
+</div>
+</div>
+
+
+
+<div id="container">
+        
+    <div id="footer">
+    <div class="part">
+    <p class="main">INFORMATION</p>
+    <p> <a href="aboutus.html"> About Us</a></p>
+    <p><a href="associatedbrands.html">Associated Brands</a></p>
+    <p><a href="FAQ.html">FAQ</a></p>
+    <p><a href="collaborate.html">Collaborate with Fab Bag</a></p>
+    <p><a href="contactus.html">Contact Us</a></p>
+    <p><a href="return.html">Returns & Refunds</a></p>
+    <p><a href="terms.html">Terms & Conditions</a></p>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+    </div>
+    
+    <div class="part">
+        <p class="main">CUSTOMER CARE</p>
+        <p>Call :<span>022-6805-6010</span>
+            <br>(Monday to Friday : 9 AM - 7 PM).   </p>
+        <p>Mail: <span>crew@fabbag.com</span></p>
+
+    </div>
+    <div class="part">
+        <p class="main">NEWSLETTER  </p>
+        <p>Signup for the latest offers, updates and news</p>
+        <input type="email" id="email" placeholder="Your email address">
+        <button id="btn" onclick="subscribe()">SUBSCRIBE</button>
+        <p>Don't worry we don't spam</p>
+
+    </div>
+</div>
+
+</div>
+<div id="media">
+<div id="social">
+    <div>
+        
+        <a target="_blank" href="https://www.facebook.com/fabbag">
+        <img src="https://cdn-icons-png.flaticon.com/128/2111/2111392.png" alt="">
+    </a></div>
+        <div>
+            <a target="_blank" href="https://twitter.com/thefabbag">
+            <img src="https://cdn-icons-png.flaticon.com/128/733/733635.png" alt="">
+        </a>
+    </div>
+  <div> <a target="_blank" href="https://instagram.com/thefabbag/">
+    <img src="https://cdn-icons-png.flaticon.com/128/733/733614.png" alt="">
+    
+</a>
+</div>  
+  <div><a target="_blank" href="https://www.youtube.com/fabbag">
+    
+    <img src="https://cdn-icons-png.flaticon.com/128/1077/1077046.png" alt="">
+</a>  
+</div>
+   
+</div> 
+<p>Copyright © 2021 fabbag.com All rights reserved.</p>
+
+</div>
+
+</body>
+</html>
+
+<script type="module">
+    import navbar from "./scripts/navbar.js"
+document.getElementById("nav").innerHTML= navbar();
+
+document.getElementsByClassName("fa")[2].addEventListener("click",function(){
+    document.getElementsByClassName("links")[0].classList.toggle("showmylinks");
+});
+</script>
