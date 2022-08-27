@@ -1,11 +1,15 @@
-    @media all and (max-width:1400px) and (min-width:1000px)
-    {
+
 #container{
     width: 85%;
     margin: auto;
     margin-top: 50px;
     border-radius: 10px;
     padding: 20px 10px;
+
+    /* border: 1px solid red; */
+    box-shadow: 0px -3px 0px 0px rgb(235, 235, 235);
+
+
 }
 #footer{
     width: 100%;
@@ -158,13 +162,13 @@ line-height: 24px;
     background-color: rgb(202, 160, 82);
     color:white;
     margin-left: 10px;
-    
-}
-    }
 
+   align-items: center;
+}
 
     @media all and (max-width:999px) and (min-width:770px)
      {
+
      
         #container{
             width: 85%;
@@ -353,12 +357,17 @@ line-height: 24px;
             
         }
         
+    } 
+
+
+    @media all and (max-width:769px) and (min-width:10px) {
 
     }
 
 
     @media all and (max-width:769px) and (min-width:10px) {
      
+
         #container{
             width: 95%;
             margin: auto;

@@ -1,3 +1,11 @@
+// import navbar from "./navbar.js"
+// console.log(navbar())
+// document.getElementById("navabr").innerHTML= navbar();
+
+document.getElementsByClassName("fa")[2].addEventListener("click",function(){
+    document.getElementsByClassName("links")[0].classList.toggle("showmylinks");
+});
+
 function check(){
     let storedName = localStorage.getItem('email');
     let storedPw = localStorage.getItem('pw');

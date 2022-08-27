@@ -1,4 +1,8 @@
 
+document.getElementsByClassName("fa")[2].addEventListener("click",function(){
+    document.getElementsByClassName("links")[0].classList.toggle("showmylinks");
+});
+
 function store(){
     let email = document.getElementById('email');
     let pw = document.getElementById('pw');
