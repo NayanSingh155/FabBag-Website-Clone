@@ -4,17 +4,17 @@ function navbar() {
   return `      <div id="search_pop_up">
         <div class="cancle">x</div>
         <p><b>WHAT ARE YOU LOOKING FOR?</b></p>
-        <input type="text" id="search_input" placeholder="search product" />
+        <input type="text" id="search" placeholder="search product" />
       </div>
 
       <div id="navbar">
     
-        <div class="subscribe">  <a href = "../subscribeNow/subscribeNow.html"><h3>SUBSCRIBE NOW</h3> </a></div>
+        <div class="subscribe">  <a href = "../subscribeNow/subscribeNow.html"><h2>SUBSCRIBE NOW</h2> </a></div>
      
         <div class="logo">
     
           <img
-            src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289"
+            src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO-Printing1_6350cdb4-8c03-49a8-bd2e-c8df50c83b37_2048x.png?v=1660282958"
             alt=""
             id="logo_Img"
           />
