@@ -1,3 +1,3 @@
 
-import footer from './imporhtml.js'
+import footer from './importhtml.js'
 document.getElementById('fbag').innerHTML=footer();
