@@ -61,13 +61,14 @@ HTML, CSS, JAVASCRIPT
 
 A collaborative project built by a team of five was executed in five days.
 
+## Team Collaboraters
+<p>Nayan Singh:Landing page/homepage half<p/>
+<p>Siddharth: subscription landing page<p/>
+<p>Prashant : signup signIn<p/>
+<p>Abhishek:Footer<p/>
+<p>Shahid Alam :checkout page<p/>
 
-<p>
-Nayan Singh:Landing page/homepage half
-Siddharth: subscription landing page
-Prashant : signup signIn
-Abhishek:Footer
-Shahid Alam :checkout page
-<p/>
 
-deployed link:https://vermillion-souffle-5bbeaa.netlify.app/addcart
+
+
+<p>deployed link:https://vermillion-souffle-5bbeaa.netlify.app/addcart<p/>
