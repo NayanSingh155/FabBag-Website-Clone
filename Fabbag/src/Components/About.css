@@ -1,0 +1,28 @@
+.aboutdiv{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding:25px;
+    padding-top:50px;
+    padding-bottom:150px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.aboutdiv>h3{
+   font-family: poppins;
+   font-size:"32px";
+   font-style: italic;
+   font-weight:100px;
+   margin-left: 40%;
+  
+}
+.hr1{
+    border:3px solid #e5b95f;
+    width:93%;
+    
+}
+
+.aboutdes{
+    width:80%;
+    margin: auto;
+
+}

@@ -1,0 +1,94 @@
+#maindiv{
+ width: 80%;
+ margin: auto;
+}
+.firstdiv, .seconddiv{
+    display: flex;
+    justify-content: space-between;
+}
+.first-one{
+    flex: 6;
+    padding: 10px;
+    height: 80vh;
+}
+.first-two{
+    flex: 4;
+    padding: 10px;
+    height: 80vh;
+    font-size: 18px;
+    margin-top: 30px;
+    color: #4e4d4d;
+}
+.first-two>h2 , .first-one>h3,#h {
+    font-size: 32px;
+    font-weight: 600;
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 39px;
+    line-height: 38px;
+}
+form{
+    width: 100%;
+}
+#nameinput,#emailinput{
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    height: 45px;
+    color: #272727;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ebebeb;
+}
+textarea{
+    width: 80%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ebebeb;
+}
+#subbtn{
+    background-color: #e5b95f;
+    color: #252525;
+    border-color: #e5b95f;
+    margin-top: 20px;
+    border-width: 1px;
+    line-height: inherit;
+    height: 46px;
+    padding: 0 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    float: right!important;
+    width: 100%;
+}
+#subemail{
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    background: #fff;
+    width: 450px;
+    color: #30373e;
+    outline: none;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 1px solid #dadada;
+}
+#subbutton{
+    background-color: #e5b95f;
+    color: #252525;
+    border-color: #e5b95f;
+    border-width: 1px;
+    line-height: inherit;
+    height: 50px;
+    padding: 0 10px;
+    font-weight: 700;
+    float: right!important;
+    /* width: 100%; */
+}
+.seconddiv{
+   background: rgb(245,245,245); 
+   height: 200px;
+   align-items: center;
+}

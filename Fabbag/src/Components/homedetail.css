@@ -1,0 +1,105 @@
+.main{
+    height: 600px;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 100px;
+}
+.main>div{
+    border: 1px solid white;
+    text-align: start;
+}
+.main>div>img:nth-child(1){
+    height: 300px;
+    width: 480px;
+    margin-top: 6.5%;
+    border: 1px solid white;
+}
+.main>div:nth-child(2){
+    padding: 20px;
+}
+.increaser{
+    height: 40px;
+    width: 180px;
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+    border: 1px solid lightgray;
+}
+.increaser>h1{
+    margin-top:2.5px ;
+    margin-left: 10px;margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.des{
+    border: 1px solid none;
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+
+
+}
+.des>div{
+    border: 2px solid none;
+    height: 29px;
+    width: 200px;
+    padding: 10px 0px 10px 5px;
+    border-radius: 30px;
+    
+}
+.des>div:nth-child(1){
+    background-color: rgb(236, 183, 114);
+}
+.BUtton{
+    color:white;
+    height:60px;
+    width:600px;
+    font-weight:bolder;
+    font-size:17px;
+    margin-top:30px;
+   background-color:black;
+}
+.BUtton:hover{
+    background-color: rgb(240, 192, 131);
+
+}
+.footerfirst{
+    margin-left:230px;
+    margin-right:230px;
+    text-align:start;
+}
+
+@media screen and (min-width:0px) and (max-width:700px){
+
+    .main{
+        height: 400px;
+        border: 1px solid white;
+        margin-top: 50px;
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 600px;
+    }
+
+    .des{
+        border: 1px solid none;
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        justify-content: space-around;
+        margin-bottom: 100px;
+
+    }
+    .footerfirst{
+        margin-left:40px;
+        margin-right:40px;
+        text-align:start;
+    }
+}

@@ -1,0 +1,190 @@
+.container {
+    display: flex;
+    max-width: 768px;
+    margin: auto;
+    justify-content: center;
+
+    .leftContainer {
+        background-color: white;
+
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .logo {
+                height: 5rem;
+                width: 20rem;
+            }
+
+            .braedCrumb {
+                display: flex;
+                align-items: center;
+
+                .links {
+                    padding: 0.3rem;
+                    font-size: 0.8rem;
+                    font-weight: 400;
+                }
+
+                .active {
+                    font-weight: 600;
+                }
+            }
+
+            .contactInfo {
+                display: flex;
+                padding-top: 1rem;
+                justify-content: space-between;
+                width: 100%;
+
+                .info {
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                }
+
+                .login {
+                    font-size: 0.8rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .rightContainer {
+        background-color: lavender;
+        width: 70%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        .itemDetails {
+            display: flex;
+            align-items: center;
+
+            >div {
+                min-width: 25%;
+            }
+
+            .imgWrapper {
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                padding-right: 0.5rem;
+                position: relative;
+
+                .img {
+                    height: 3rem;
+                    width: 3rem;
+                }
+
+                .count {
+                    background-color: grey;
+                    color: white;
+                    border-radius: 50%;
+                    position: absolute;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    text-align: center;
+                    top: 0;
+                    margin-left: 2rem;
+                }
+            }
+
+            .descWrapper {
+                padding: 0.5rem;
+
+                .desc {
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                }
+
+                .subDesk {
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                }
+            }
+
+            .amountWrapper {
+                text-align: right;
+                font-weight: bold;
+                font-size: 1rem;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                padding-left: 0.5rem;
+            }
+        }
+
+        .horizonatlBar {
+            padding: 1rem 0;
+
+            hr {
+                color: lightgrey;
+            }
+
+        }
+
+        .coupanWrapper {
+            display: flex;
+            justify-content: space-between;
+
+            input {
+                width: 70%;
+                padding: 0.2rem;
+                border-radius: 0.2rem;
+                border: 1px solid lightgrey
+            }
+
+            button {
+                width: 25%;
+                background-color: lightgrey;
+                border: 1px solid transparent;
+                color: white;
+                border-radius: 0.2rem;
+            }
+        }
+
+        .subCalc {
+            display: flex;
+            justify-content: space-between;
+
+            .leftText {
+                font-size: 0.8rem;
+            }
+
+            .subTotal {
+                font-size: 0.9rem;
+                font-weight: 600;
+            }
+
+            .shipping {
+                font-size: 0.8rem;
+            }
+        }
+
+        .finalCalc {
+            display: flex;
+            justify-content: space-between;
+
+            .leftText {
+                font-size: 0.9rem;
+                font-weight: 600;
+            }
+
+            .inr {
+                font-size: 0.7rem;
+                font-weight: 300;
+            }
+
+            .total {
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+    }
+}

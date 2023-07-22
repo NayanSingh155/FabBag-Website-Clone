@@ -1,0 +1,38 @@
+.formWrapper {
+    padding: 0.5rem 0;
+
+    .fullInput {
+        display: inline-block;
+        padding: 3px 6px;
+        border: 1px solid lightgrey;
+        width: calc(100% - 12px);
+        border-radius: 0.2rem;
+
+        select {
+            outline: none;
+            border: none;
+            display: block;
+            font-size: 0.8rem;
+            width: 100%;
+
+        }
+
+        label {
+            display: block;
+            font-size: 10px;
+            color: blue;
+        }
+    }
+
+    .invalid {
+        border: 1px solid red;
+    }
+}
+
+.error {
+    display: block;
+    color: red;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-top: -3px
+}

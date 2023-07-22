@@ -1,0 +1,190 @@
+.list{
+height:350px;
+display: grid;
+grid-template-columns: 350px 330px;
+margin-left:25% ;
+margin-bottom: 270px;
+
+}
+.list>div{
+
+
+    border: 1px solid lightgray;
+    margin-right: 20px;
+   
+}
+
+.list>div>div{
+border: 1px solid lightgray;
+}
+.mycart{
+    color: white;
+    border:1px solid white;
+    border-radius:5px;
+    margin-left:10px;
+    margin-right:10px;
+    height:20px;
+    padding:5px;
+}
+.mycart:hover{
+    color: black;
+}
+.privious{
+border:1px solid  none;
+height: 250px;
+margin-bottom: 50px;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+margin-left: 7%;
+margin-right: 6.6%;
+overflow :scroll;
+overflow-x:calc();
+overflow-y:hidden;
+}
+.privious>div{
+margin-left: 0px;
+width: 295px;
+border: 2px solid none;
+cursor: pointer;
+}
+.bagdiv{
+height:400px;
+border:1px solid none;
+margin-bottom:20px;
+display:grid;
+grid-template-columns: repeat(5,1fr);
+background-color: transparent;
+overflow :scroll;
+overflow-x:calc();
+overflow-y:hidden;
+gap:20px;
+
+}
+.bagdiv>div{
+    height: 317px;
+    width:300px;
+    
+    
+}
+.bagdiv>div>img:hover{
+    opacity: 50%;
+
+}
+.bottomLine{
+    margin:35% ;
+    height:-10px;
+    margin-bottom:4%;
+    border-top:2px solid goldenrod;
+    margin-top: -2%;
+}
+.Quetoes{
+
+
+    background-color: rgb(245, 215, 176);
+    height: 500px;
+    margin-bottom: 50px;
+    background: url(https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Testimonial-Final_2048x.png?v=1548829465);
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 7%;
+    margin: 3% auto;
+
+}
+.Quetoes>p{
+    margin:2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    justify-content: center;
+  
+
+ }
+.Quetoes:hover{
+    opacity: .7;
+}
+.text{
+font-size: 40px;
+
+}
+.Insta{
+    border:1px solid none;
+    height:180px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin-bottom: 60px;
+}
+.Insta>div:hover{
+    opacity: 0.5;
+    background:transparent;
+    background: url(https://instafeed.nfcube.com/assets/img/instagram-icon.svg);
+
+}
+.foot{
+    height:160px;
+    border:1px solid rgb(247, 210, 162);
+    margin-bottom: 100px;
+    background-color: rgb(247, 210, 162);
+
+}
+.foot>div{
+    border: 1px solid none;
+    margin: 2%;
+    height:100px ;
+    display: flex;
+    justify-content: space-around;
+
+}
+.foot>div>img{
+    vertical-align: center;
+    height: 80px;
+    width: 120px;
+    margin-top: .7%;
+}
+
+.sideshow{
+    
+height:440px;
+ border:1px solid white;
+ margin-bottom:30px;
+}
+@media screen and (min-width:0px) and (max-width:700px){
+    .sideshow{
+    
+        height:300px;
+         border:1px solid white;
+         margin-bottom:30px;
+        }
+    .list{
+        height:850px;
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        margin-left:15% ;
+        margin-top: 20px;
+    }
+    .bottomLine{
+        margin:28% ;
+        height:-10px;
+        margin-bottom:4%;
+        border-top:2px solid rgb(226, 178, 115);
+        margin-top: -2%;
+}
+.text{
+    font-size: 20px;
+}
+
+.Insta{
+    border:1px solid none;
+    height:100px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.foot>div{
+    border: 1px solid none;
+    margin: 4%;
+    height:100px ;
+
+}
+}
+     
+
+

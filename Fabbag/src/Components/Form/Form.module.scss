@@ -1,0 +1,43 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .formGroup {
+        width: 100%;
+    }
+
+    .shippAdd {
+        padding: 1rem 0;
+    }
+
+    .formHorizontal {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        >div {
+            width: 7rem;
+        }
+
+        // .imp {
+        //     width: 11rem !important;
+        // }
+    }
+
+    .formfooter {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+
+        .shoppingBtn {
+            background-color: black;
+            color: white;
+            padding: 0.5rem 1rem;
+        }
+    }
+
+
+}
