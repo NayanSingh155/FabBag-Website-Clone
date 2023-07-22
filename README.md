@@ -15,8 +15,7 @@ MongoDB
 ExpressJs
 nodejs
 
-##Demo
-<p>Click here<a>dashing-fox-837d55.netlify.app/</a></p>
+dashing-fox-837d55.netlify.app/
 
 <h3> 1) Landing Page of FabBag Clone</h3>
 <img src="https://user-images.githubusercontent.com/97445870/168086084-9444da60-3cfa-4fab-b763-4e9d62d9cef3.png"/>
