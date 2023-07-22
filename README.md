@@ -2,6 +2,8 @@
 
 www.fabbag.com
 
+#live 
+https://dashing-fox-837d55.netlify.app/
 
 
 # MeanBuy
@@ -14,7 +16,6 @@ Redux
 MongoDB
 ExpressJs
 nodejs
-https://dashing-fox-837d55.netlify.app/
 
 
 <h3> 1) Landing Page of FabBag Clone</h3>
