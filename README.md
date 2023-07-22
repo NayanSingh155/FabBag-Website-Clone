@@ -44,7 +44,7 @@ nodejs
 A collaborative project built by a team of five was executed in five days.
 
 ## Team Collaboraters
-<p>Nayan Singh<p/>
+<p>Nanhi Singh<p/>
 <p>Siddharth<p/>
 <p>Prashant<p/>
 <p>Abhishek<p/>
